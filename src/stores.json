@@ -1,146 +1,20 @@
 [
   {
     "id": 1,
-    "address": "2840 S Alma School Rd, Chandler, AZ 85286",
-    "latitude": 33.27024,
-    "longitude": -111.85797,
-    "comingSoon": false,
-    "name": "Chandler"
+    "address": "Boise, Idaho",
+    "latitude": 43.615018,
+    "longitude": -116.202314,
+    "name": "Liz Sweeney",
+    "img_url": "https://ca.slack-edge.com/TDCTNB00N-U034502EU57-75233e7e1d2e-512",
+    "quote": "The best way to predict the future is to create it."
   },
   {
     "id": 2,
-    "address": "2408 Sardis Rd N, Charlotte, NC 28227",
-    "latitude": 35.14669,
-    "longitude": -80.70884,
-    "comingSoon": false,
-    "name": "Charlotte"
-  },
-  {
-    "id": 3,
-    "address": "8215 University City Blvd Suite 1A, Charlotte, NC 28213",
-    "latitude": 35.29663,
-    "longitude": -80.73582,
-    "comingSoon": false,
-    "name": "university-city"
-  },
-  {
-    "id": 4,
-    "address": "Polaris Mall - 1400 Polaris Pkwy, Columbus, OH 43240",
-    "latitude": 40.14531,
-    "longitude": -82.97799,
-    "comingSoon": false,
-    "name": "Columbus"
-  },
-  {
-    "id": 5,
-    "address": "705 N Main St, Corona, CA 92878",
-    "latitude": 33.89141,
-    "longitude": -117.56385,
-    "comingSoon": false,
-    "name": "Corona"
-  },
-  {
-    "id": 6,
-    "address": "501 E 6th Street, Del Rio, TX",
-    "latitude": 29.36105,
-    "longitude": -100.89613,
-    "comingSoon": false,
-    "name": "Del-Rio"
-  },
-  {
-    "id": 7,
-    "address": "36 Park Woodruff Dr, Greenville, SC 29607",
-    "latitude": 34.82878,
-    "longitude": -82.32498,
-    "comingSoon": false,
-    "name": "Greenville"
-  },
-  {
-    "id": 8,
-    "address": "4471 Jimmy Lee Smith Pkwy, Hiram, GA 30141",
-    "latitude": 33.88483,
-    "longitude": -84.76761,
-    "comingSoon": false,
-    "name": "Hiram"
-  },
-  {
-    "id": 9,
-    "address": "1500 W Main St, Laurens, SC 29360",
-    "latitude": 34.49932,
-    "longitude": -82.02644,
-    "comingSoon": false,
-    "name": "Laurens"
-  },
-  {
-    "id": 10,
-    "address": "934 N Lake Dr, Lexington, SC 29072",
-    "latitude": 34.00763,
-    "longitude": -81.24479,
-    "comingSoon": false,
-    "name": "Lexington"
-  },
-  {
-    "id": 11,
-    "address": "3820 S Kings Hwy, Myrtle Beach, SC 29577",
-    "latitude": 33.68994,
-    "longitude": -78.91845,
-    "comingSoon": false,
-    "name": "Myrtle-Beach"
-  },
-  {
-    "id": 12,
-    "address": "3040 Farm to Market 1960 Rd E Suite 300, Houston, TX 77073",
-    "latitude": 30.02219,
-    "longitude": -95.36967,
-    "comingSoon": false,
-    "name": "Houston"
-  },
-  {
-    "id": 13,
-    "address": "6421 Hilburn Dr, Raleigh, NC 27613",
-    "latitude": 35.86707,
-    "longitude": -78.70516,
-    "comingSoon": false,
-    "name": "Raleigh"
-  },
-  {
-    "id": 14,
-    "address": "660 Spartan Blvd #200, Spartanburg, SC",
-    "latitude": 34.94496,
-    "longitude": -81.96971,
-    "comingSoon": false,
-    "name": "Spartanburg"
-  },
-  {
-    "id": 15,
-    "address": "1636 Hendersonville Road Suite 160, Asheville, NC 28803",
-    "latitude": 35.51314,
-    "longitude": -82.52315,
-    "comingSoon": true,
-    "name": "Asheville"
-  },
-  {
-    "id": 16,
-    "address": "2807 Wylds Road Ext. Augusta, GA 30909",
-    "latitude": 33.49263,
-    "longitude": -82.11353,
-    "comingSoon": true,
-    "name": "Augusta"
-  },
-  {
-    "id": 17,
-    "address": "14290 Plymouth Ave, Burnsville, MN 55337",
-    "latitude": 44.74827,
-    "longitude": -93.24763,
-    "comingSoon": true,
-    "name": "Burnsville"
-  },
-  {
-    "id": 18,
-    "address": "2930 Watson Blvd, Centerville, GA, 31028",
-    "latitude": 32.6202,
-    "longitude": -83.68758,
-    "comingSoon": true,
-    "name": "Centerville"
+    "address": "Bath, Michigan",
+    "latitude": 42.818642,
+    "longitude": -84.448639,
+    "name": "Breanna Gunn",
+    "img_url": "https://ca.slack-edge.com/TDCTNB00N-U07UVR61QQ5-e1a6de02129f-512",
+    "quote": "Email Marketing Manager"
   }
 ]

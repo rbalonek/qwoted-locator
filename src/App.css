@@ -13,6 +13,7 @@ img.marker-image {
   width: 30px;
   height: 40px;
   transition: filter 0.3s ease-in-out;
+  border-radius: 100%;
 }
 
 /* Ensure "Coming Soon" markers appear BELOW open parks */
@@ -167,4 +168,25 @@ img.marker-image {
 }
 .leaflet-right {
   display: none;
+}
+/* Popup Content */
+.popup-content {
+  text-align: center;
+  width: 200px;
+}
+
+/* Profile Image */
+.popup-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #f2a049; /* Big Air orange */
+}
+
+/* Quote Styling */
+.popup-quote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
 }
