@@ -1,0 +1,170 @@
+/* Wrapper for marker */
+.marker-container {
+  position: relative;
+  width: 30px; /* Control marker size */
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Default marker image */
+img.marker-image {
+  width: 30px;
+  height: 40px;
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Ensure "Coming Soon" markers appear BELOW open parks */
+.coming-soon-marker {
+  filter: grayscale(100%) brightness(50%) contrast(0%);
+  z-index: 1; /* Lower priority */
+}
+
+/* Ensure open parks appear ABOVE "Coming Soon" markers */
+.open-park-marker {
+  z-index: 10; /* Higher priority */
+}
+
+/* Solid gray overlay effect for "Coming Soon" popups */
+.coming-soon-overlay {
+  background-color: #808080; /* Solid gray */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Button styling */
+.visit-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff !important;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.visit-button:hover {
+  background-color: #0056b3;
+}
+.use-location-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin: 5px;
+  align-self: center;
+  border-radius: 5px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Spinner Overlay */
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkened background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Spinner Animation */
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid rgba(242, 160, 57, 0.3);
+  border-top: 6px solid #f2a039;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Rotation Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Button container for multiple buttons */
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for both buttons */
+.visit-button,
+.directions-button {
+  display: flex;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Visit Website button */
+.visit-button {
+  background-color: #007bff;
+  position: relative;
+  bottom: 5px;
+}
+
+.visit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Get Directions button */
+.directions-button {
+  background-color: #f2a039;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
+
+.directions-button:hover {
+  background-color: #d28025;
+}
+
+/* Ensure open parks layer on top */
+.leaflet-marker-icon {
+  z-index: 10 !important;
+}
+
+.leaflet-marker-shadow {
+  z-index: 5 !important;
+}
+
+.leaflet-marker-pane {
+  z-index: 1000 !important;
+}
+/* Ensure popups appear above markers */
+.leaflet-popup-pane {
+  z-index: 1000 !important;
+}
+
+/* Ensure markers are below popups */
+.leaflet-marker-pane {
+  z-index: 500 !important;
+}
+.leaflet-right {
+  display: none;
+}
