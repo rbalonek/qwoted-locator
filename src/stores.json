@@ -16,5 +16,15 @@
     "name": "Breanna Gunn",
     "img_url": "https://ca.slack-edge.com/TDCTNB00N-U07UVR61QQ5-e1a6de02129f-512",
     "quote": "Email Marketing Manager"
-  }
+  },
+  {
+    "id": 3,
+    "address": "Santa Rosa, CA",
+    "latitude": 38.4405,
+    "longitude": -122.7144,
+    "name": "Bob Balonek",
+    "img_url": "https://ca.slack-edge.com/TDCTNB00N-U0877HZD0TU-e7a7eb0fb5e4-512",
+    "quote": "Dev and Marketing"
+}
+
 ]

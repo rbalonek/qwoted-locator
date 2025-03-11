@@ -49,10 +49,10 @@ function LeafletMap({ center, zoom, markers, selectedStoreId }) {
       style={{ height: "80vh", width: "100%" }}
       whenCreated={(map) => (mapRef.current = map)}
       zoomControl={true}
-      maxBounds={US_BOUNDS}
+      // maxBounds={US_BOUNDS}
       maxBoundsViscosity={1.0}
-      minZoom={4}
-      maxZoom={18}
+      // minZoom={4}
+      // maxZoom={18}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
