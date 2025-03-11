@@ -41,7 +41,7 @@ img.marker-image {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #007bff;
+  background-color: #F75540;
   color: #fff !important;
   text-decoration: none;
   border-radius: 5px;
@@ -51,7 +51,7 @@ img.marker-image {
   background-color: #0056b3;
 }
 .use-location-btn {
-  background-color: #007bff;
+  background-color: #F75540;
   color: white;
   border: none;
   padding: 8px;
