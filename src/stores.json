@@ -25,6 +25,15 @@
     "name": "Bob Balonek",
     "img_url": "https://ca.slack-edge.com/TDCTNB00N-U0877HZD0TU-e7a7eb0fb5e4-512",
     "quote": "Dev and Marketing"
+},
+{
+  "id": 4,
+  "address": "Longmont, Colorado",
+  "latitude": 40.1672,
+  "longitude": -105.1019,
+  "name": "Jessica Violet",
+  "img_url": "https://ca.slack-edge.com/TDCTNB00N-U083WEENANQ-baebebd62cb0-512",
+  "quote": "Media Support Specialist"
 }
 
 ]
